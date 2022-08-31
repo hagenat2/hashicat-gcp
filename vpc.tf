@@ -1,6 +1,6 @@
 module "vpc" {
-    source  = "terraform-google-modules/network/google"
-    version = "~> 3.0"
+    source  = "app.terraform.io/nataliehagenow/network/google"
+    version = "3.4.0"
 
     project_id   = "p-za7x8r1fmcug-0"
     network_name = "natalie-vpc"
